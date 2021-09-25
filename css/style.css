@@ -44,12 +44,27 @@
   text-align: center;
   color:white;
 }
+#todo-list li{
+  font-size:20px;
+  color: black;
+  text-align: center;
+  padding : 10px 0 0 0;
+}
+#todo-list button{
+  background-color: unset;
+  border: none;
+  padding : 10px 0 0 10px;
+}
 #quote{
   position:absolute;
   bottom:10px;
   left:50%;
   transform: translateX(-50%);
-  font-size:20px;
+  
+}
+#quote span{
+  padding-bottom:5px 0;
+  font-size:15px;
   color:white;
   display: block;
   text-align: center;
