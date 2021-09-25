@@ -1,3 +1,65 @@
 .hidden{
   display:none;
 }
+.middle{
+  position:absolute;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.animals{
+  max-width:100%;
+  height:auto;
+  overflow: hidden;
+  left :0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+#clock{
+  font-size:100px;
+  color:white;
+  text-align: center;
+}
+#greeting{
+  font-size:40px;
+  color:white;
+  text-align: center;
+}
+#todo-form input{
+  width:350px;
+  height:80px;
+  border:0;
+  outline:0;
+  border-bottom: 1px solid white;
+  background-color:unset;
+  font-size:20px;
+  text-align: center;
+  color:white;
+}
+#todo-form input::placeholder{
+  font-size:20px;
+  text-align: center;
+  color:white;
+}
+#quote{
+  position:absolute;
+  bottom:10px;
+  left:50%;
+  transform: translateX(-50%);
+  font-size:20px;
+  color:white;
+  display: block;
+  text-align: center;
+}
+#weather{
+  position:absolute;
+  top:10px;
+  right:10px;
+  font-size:30px;
+  color:white;
+  display:block;
+  text-align: center;
+}
