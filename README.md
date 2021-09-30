@@ -8,3 +8,7 @@ to do list web site using javascript
 3. make to-do-list
 4. look at various background
 5. read various quotes
+
+## what's lacking?
+1. can't control image size to fit the monitor size
+2. can't control div positions to fit the image(I only used position:absolute)
