@@ -44,9 +44,9 @@ const quotes=[
     music : "When a girl",
   }
 ]
-const quote = document.querySelector("#quote span:first-child");
-const music = document.querySelector("#quote span:last-child");
+const quote=document.querySelector(".quote span:first-child");
+const music=document.querySelector(".quote span:last-child");
 
-const todaysQuotes = quotes[Math.floor(Math.random()*quotes.length)];
-quote.innerText = todaysQuotes.quote;
-music.innerText = `\n${todaysQuotes.music}`;
+const todaysQuotes=quotes[Math.floor(Math.random()*quotes.length)];
+quote.innerText=todaysQuotes.quote;
+music.innerText=`\n${todaysQuotes.music}`;
