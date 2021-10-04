@@ -15,12 +15,14 @@ function saveToDos(){
   localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
 }
 function paintToDo(newToDoObj){
-  const li=document.createElement("li");
+  const li = document.createElement("li");
   const span=document.createElement("span");
   li.className=newToDoObj.id;
-  span.innerText=newToDoObj.text;
+  span.innerText = newToDoObj.text;
+  span.className = "todo-list-text";
   const button=document.createElement("button");
-  button.innerText="❌";
+  button.innerText = "❌";
+  button.className = "todo-list-button";
   button.addEventListener("click",deleteToDo);
   li.appendChild(span);
   li.appendChild(button);

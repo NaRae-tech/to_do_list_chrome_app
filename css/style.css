@@ -2,6 +2,12 @@ body{
     padding:0;
     margin:0;
 }
+ul, li {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
 .hidden{
   display:none;
 }
@@ -13,22 +19,50 @@ body{
   transform: translate(-50%,-50%);
 }
 .animals {
-    overflow: hidden;
-    padding:0;
-    margin:0;
+  overflow: hidden;
+  padding:0;
+  margin:0;
 }
 .clock{
   font-size:100px;
   color:white;
   text-align:center;
 }
+.login-form {
+  width: 290px;
+  height: 80px;
+  margin:0 auto;
+}
+.login-form-input {
+  width: 200px;
+  height: 60px;
+  border: 0;
+  margin:0 auto;
+  outline: 0;
+  border-bottom: 1px solid white;
+  background-color: unset;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.login-form-input::placeholder {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.login-form-button{
+  border:0;
+  font-size:20px;
+  color:gray;
+  background-color:transparent !important;
+}
 .greeting{
   font-size:40px;
   color:white;
   text-align:center;
 }
-.todo-form input{
-  width:350px;
+.todo-form-input{
+  width:400px;
   height:80px;
   border:0;
   outline:0;
@@ -38,28 +72,31 @@ body{
   text-align:center;
   color:white;
 }
-.todo-form input::placeholder{
+.todo-form-input::placeholder{
   font-size:20px;
   text-align:center;
   color:white;
 }
-.todo-list li{
-  font-size:20px;
-  color:black;
-  text-align:center;
-  padding:10px 0 0 0;
+.todo-list li {
+  display: flex;
+  justify-content: center;
+  padding-top:10px;
 }
-.todo-list button{
-  background-color:unset;
-  border:none;
-  padding:10px 0 0 10px;
+.todo-list-text{  
+  font-size:20px;
+  color:white;
+  text-align:center;
+}
+.todo-list-button {
+  padding: 5px;
+  background-color: unset;
+  border: none;
 }
 .quote{
   position:absolute;
   bottom:10px;
   left:50%;
   transform:translateX(-50%);
-  
 }
 .quote span{
   padding-bottom:5px 0;
