@@ -19,9 +19,11 @@ ul, li {
   transform: translate(-50%,-50%);
 }
 .animals {
+  height:100vh;
+  width:100vw;
   overflow: hidden;
   padding:0;
-  margin:0;
+  margin:0 auto;
 }
 .clock{
   font-size:100px;
