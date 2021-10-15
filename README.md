@@ -1,5 +1,5 @@
 # to_do_list_chrome_app
-to do list web site using javascript 
+to do list web site using javascript (https://narae-tech.github.io/to_do_list_chrome_app/)  
 (reference : https://nomadcoders.co/javascript-for-beginners/lobby)
 
 ## what can you do through this?
